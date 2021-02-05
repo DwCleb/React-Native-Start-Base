@@ -10,12 +10,12 @@ Mobile App template to react native development
 
 ## Documentation
 
-- [Getting Started]('documentation/getting-started.md')
-- [Git Flow]('./documentation/gitflow.md')
-- [Tests]('./documentation/tests.md')
-- [Project Structure]('./documentation/project-structure.md')
-- [Development workflow]('./documentation/development-workflow.md')
-- [Components]('documentation/components.md')
+- [Getting Started](documentation/getting-started.md)
+- [Git Flow](documentation/gitflow.md)
+- [Tests](documentation/tests.md)
+- [Project Structure](documentation/project-structure.md)
+- [Development workflow](documentation/development-workflow.md)
+- [Components](documentation/components.md)
 
 ## Code Workflow
 
