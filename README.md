@@ -35,6 +35,6 @@ Mobile App template to react native development
 <img src="./documentation/preview/2.png" width="300" align="center"/>
 </p>
 
-![Welcome Page](documentation/preview/1.png =300x "WelcomePage")
+![Welcome Page](documentation/preview/1.png =300x)
 
 ###### **made with <3**
