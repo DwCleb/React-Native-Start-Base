@@ -28,6 +28,6 @@ Mobile App template to react native development
 ## Preview
 
 <p align="center">
-<img src="./documentation/preview/1.png" width="200" align="center"/>
-<img src="./documentation/preview/2.png" width="200" align="center"/>
+<img src="./documentation/preview/1.png" width="300" align="center"/>
+<img src="./documentation/preview/2.png" width="300" align="center"/>
 </p>
