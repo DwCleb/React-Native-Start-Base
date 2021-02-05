@@ -50,36 +50,59 @@
 │ │ │ │ └── /*
 │ │ │ │ 
 │ │ │ └──── index.ts               `[Export all components, enums, props]`
-│ │ │
 │ │ │ 
-│ │ │ 
-│ │ │ 
-│ ├─┬─ /pages
+│ │ └──── /*
+│ │ 
+│ ├─┬─ /pages                      `[App screen declaration]`
 │ │ │
 │ │ ├─┬─ /Private
 │ │ │ │
-│ │ │ ├─── */
+│ │ │ ├─┬─ /Home
+│ │ │ │ ├── index.tsx
+│ │ │ │ └── styles.ts
 │ │ │ │
-│ │ │ └─┬─ /Home
-│ │ │   ├── index.tsx
-│ │ │   └── styles.tsx
+│ │ │ └── /*
 │ │ │
 │ │ └─┬─ /Public
-│ │   ├─── */
-│ │   ├─┬─ /Welcome
+│ │   │
+│ │   ├─┬─ /Home
 │ │   │ ├── index.tsx
-│ │   │ └── styles.tsx
-│ │   ├─── /Register/*
-│ │   └─── */
-│ ├─┬─ /routes/
-│ │ ├── authLoading.tsx
-│ │ └── index.tsx
-│ ├─┬─ /services/
-│ │ └── auth.tsx
-│ └─┬─ /theme/
-│   ├── colors.tsx
-│   ├── general.tsx
-│   ├── index.tsx
-│   └── metrics.tsx
-├─ /*
+│ │   │ └── styles.ts
+│ │   │
+│ │   └── /*
+│ │    
+│ ├─┬─ /routes
+│ │ │
+│ │ ├─┬─ /App
+│ │ │ └─ index.tsx
+│ │ │
+│ │ ├─┬─ /Auth
+│ │ │ └─ index.tsx
+│ │ │
+│ │ ├─── RoutesTranslation.tsx
+│ │ └─── index.tsx
+│ │ 
+│ ├─┬── /services
+│ │ │
+│ │ ├──┬─ /api
+│ │ │  │
+│ │ │  ├───
+│ │ │  └───
+│ │ │ 
+│ │ └─┬── /helpers
+│ │   ├───
+│ │   └───
+│ │ 
+│ └─┬─ /theme
+│   │ 
+│   ├─┬─ /ThemeContext
+│   │ ├─ dark.ts
+│   │ ├─ light.ts
+│   │ └─ index.tsx
+│   │ 
+│   ├── colors.ts
+│   ├── index.ts
+│   ├── metrics.ts
+│   └── theme.ts
+│ 
 └─ index.js
