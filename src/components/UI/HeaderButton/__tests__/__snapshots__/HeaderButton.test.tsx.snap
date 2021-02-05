@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderButton /> component Should render correctly 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  hitSlop={
+    Object {
+      "bottom": 30,
+      "left": 30,
+      "right": 30,
+      "top": 30,
+    }
+  }
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "marginLeft": 40,
+      "marginTop": 0,
+      "opacity": 1,
+      "paddingRight": 60,
+    }
+  }
+>
+  <Image
+    resizeMode="contain"
+    source={
+      Object {
+        "testUri": "../../../src/assets/icons/back.png",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "height": 32,
+          "tintColor": "#FFFFFF",
+          "transform": Array [
+            Object {
+              "scaleX": 1,
+            },
+          ],
+          "width": 18,
+        },
+      ]
+    }
+    type="back"
+  />
+</View>
+`;

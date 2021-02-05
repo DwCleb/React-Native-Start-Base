@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for component <Shimmer /> Should renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 15,
+        "width": 200,
+      },
+      Object {
+        "overflow": "hidden",
+      },
+      undefined,
+      Object {
+        "backgroundColor": "#3A3D43",
+        "width": 100,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+        },
+        false,
+      ]
+    }
+  />
+  <View
+    style={
+      Object {
+        "backgroundColor": "#3D4046",
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "transform": Array [
+            Object {
+              "translateX": -200,
+            },
+          ],
+        }
+      }
+    >
+      <BVLinearGradient
+        colors={
+          Array [
+            4282204230,
+            4282006851,
+            4282204230,
+          ]
+        }
+        endPoint={
+          Object {
+            "x": 2,
+            "y": 0.5,
+          }
+        }
+        locations={
+          Array [
+            0.3,
+            0.5,
+            0.7,
+          ]
+        }
+        startPoint={
+          Object {
+            "x": -1,
+            "y": 0.5,
+          }
+        }
+        style={
+          Object {
+            "flex": 1,
+            "width": 200,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
