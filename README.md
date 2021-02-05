@@ -31,10 +31,8 @@ Mobile App template to react native development
 ## Preview
 
 <p align="center">
-<img src="./documentation/preview/1.png" width="300" align="center"/>
-<img src="./documentation/preview/2.png" width="300" align="center"/>
+<img alt="Welcome page" src="./documentation/preview/1.png" width="300" align="center"/>
+<img alt="Info modal with succes message" src="./documentation/preview/2.png" width="300" align="center"/>
 </p>
-
-![Welcome Page](documentation/preview/1.png =300x200)
 
 ###### **made with <3**
