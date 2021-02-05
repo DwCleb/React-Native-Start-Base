@@ -1,3 +1,6 @@
+<p align="center">
+<img src="./src/assets/images/Logo.png" width="150" align="center"/>
+</p>
 # React Native Base
 
 ## Description
@@ -21,3 +24,10 @@ Mobile App template to react native development
 - TSLint
 - Husky pre-commit
 - Editor Config
+
+## Preview
+
+<p align="center">
+<img src="./documentation/preview/1.png" width="150" align="center"/>
+<img src="./documentation/preview/2.png" width="150" align="center"/>
+</p>
