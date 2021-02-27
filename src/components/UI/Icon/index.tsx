@@ -28,7 +28,7 @@ export const Icon = styled(IonIcon).attrs(({ name, logo, ios, md, size }: IconPr
     size: size || 20,
   };
 })`
-  color: ${(props: IconProps): string => props.color || Colors.theme.monochromatic.almostWhite};
+  color: ${(props: IconProps): string => props.color || 'black'};
   align-self: center;
   margin-left: 2px;
 `;

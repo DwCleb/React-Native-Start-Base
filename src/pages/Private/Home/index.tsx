@@ -3,7 +3,7 @@ import React from 'react';
 import Typography, { TypographyType } from '~/components/UI/Typography';
 import Button from '~/components/UI/Buttons/Button';
 
-import { View, ViewEnum } from '~/components/Structure';
+import { ScrollView } from '~/components/Structure';
 import { useSystemContext } from '~/services/context/reducers/system';
 import { signOutSystem } from '~/services/context/actions/system';
 
@@ -13,10 +13,19 @@ export default function Home(): JSX.Element {
   const { dispatch } = useSystemContext();
 
   return (
-    <View flex={1} justifyContent={ViewEnum.CENTER} alignItems={ViewEnum.CENTER}>
-      <Typography type={TypographyType.H1}>Home</Typography>
+    <ScrollView>
+      {[1, 1, 1, 1, 1, 1, 11, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1].map((item) => (
+        <Typography key={item} type={TypographyType.H1} distance={[10]}>
+          Home
+        </Typography>
+      ))}
 
-      <Button title="Sair" color={theme.alerts.red} onPress={(): void => dispatch(signOutSystem())} />
-    </View>
+      <Button
+        title="Sair"
+        color={theme.alerts.red}
+        onPress={(): void => dispatch(signOutSystem())}
+        distance={[0, 0, 50, 0]}
+      />
+    </ScrollView>
   );
 }

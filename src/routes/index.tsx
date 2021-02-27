@@ -49,6 +49,7 @@ function AppNavigator(): JSX.Element {
   if (systemState.accessToken !== null) {
     return <AppStack />;
   } else {
+    // return <AppStack />;
     return <AuthStack />;
   }
 }

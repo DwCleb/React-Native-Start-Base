@@ -1,8 +1,4 @@
-# Components 
-
-## documention for components
-
-### Content
+# Components
 
 #### Navigation
 

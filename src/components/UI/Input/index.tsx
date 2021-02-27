@@ -56,6 +56,7 @@ export default function Input({
         onChangeText={(textValue: string): void => onChange({ value: textValue, name })}
         onBlur={onBlur}
         onFocus={onFocus}
+        style={{ paddingTop: 0, paddingBottom: 0 }}
       />
     );
   }

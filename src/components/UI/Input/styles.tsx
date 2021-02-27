@@ -66,7 +66,6 @@ function getMargin({ distance }: Props): string {
 }
 
 export const InnerInput = styled.View`
-  height: ${scale(45)}px;
   width: ${({ paddingHorizontal }: Props): number => Metrics.screen.width - scale(paddingHorizontal || 20)}px;
   margin: ${(props: Props): string => getMargin(props)};
 `;
@@ -77,8 +76,13 @@ export const InputBase = styled(TextInput).attrs(({ theme, mode, hasError }: Pro
   autoCorrect: false,
   autoCapitalize: 'none',
   autoCompleteType: 'off',
+  multiline: false,
 }))`
-  height: ${({ height }: Props): number => height || 45}px;
+  flex: 1;
+  /* height: ${({ height }: Props): number => height || 45}px; */
+  justify-content: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
 `;
 
 export const ShowPass = styled.TouchableOpacity.attrs(() => ({

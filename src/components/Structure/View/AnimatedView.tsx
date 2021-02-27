@@ -2,7 +2,7 @@ import React from 'react';
 import { Animated, Easing, ViewStyle } from 'react-native';
 import { scale } from '~/theme';
 
-interface Props {
+export interface Props {
   delay: number;
   duration: number;
   style: ViewStyle;
@@ -12,7 +12,7 @@ interface Props {
   children: JSX.Element | JSX.Element[];
 }
 
-export default function VertivalAnimation({
+export default function VerticalAnimation({
   delay,
   duration,
   style,

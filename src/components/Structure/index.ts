@@ -1,2 +1,2 @@
 export { default as KeyboardAvoidingView } from './KeyboardAvoidingView';
-export { VerticalAnimatedView, View, ViewEnum } from './View';
+export { VerticalAnimatedView, View, ViewEnum, ScrollView } from './View';

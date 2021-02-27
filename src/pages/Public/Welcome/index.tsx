@@ -8,7 +8,7 @@ import { useFormik } from 'formik';
 import * as yup from 'yup';
 
 import Input from '~/components/UI/Input';
-import { VerticalAnimatedView, View, ViewEnum } from '~/components/Structure';
+import { VerticalAnimatedView, View, ViewEnum, ScrollView } from '~/components/Structure';
 
 import { useRequestAuth } from '~/services/api/requests';
 
@@ -47,9 +47,9 @@ export default function Welcome(): JSX.Element {
   };
 
   return (
-    <View flex={1} color={theme.primary.blue} justifyContent={ViewEnum.CENTER} alignItems={ViewEnum.CENTER}>
+    <ScrollView flex={1} color={theme.primary.blue} justifyContent={ViewEnum.CENTER} alignItems={ViewEnum.CENTER}>
       <View
-        flex={1.5}
+        flex={4}
         width="100%"
         color={theme.primary.blue}
         justifyContent={ViewEnum.CENTER}
@@ -110,6 +110,6 @@ export default function Welcome(): JSX.Element {
         message="Cadastro finalizado com sucesso"
         onClose={(): void => setShowForgotPassword(false)}
       />
-    </View>
+    </ScrollView>
   );
 }
