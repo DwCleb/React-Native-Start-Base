@@ -1,4 +1,4 @@
-import { InputStatus } from '~/components/UI/Controls/Inputs/Input/InputType';
+import { InputStatus } from '~/components/UI/Input/InputType';
 import { FormikValues } from 'formik';
 
 export function getInputStatus(
@@ -169,23 +169,24 @@ export function validateCPF(cpf: string): boolean {
 }
 
 export function validateCNPJ(cnpj: string): boolean {
-  let valida = new Array(6, 5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2);
-  let dig1 = new Number();
-  let dig2 = new Number();
+  const valida = [6, 5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2];
+  let dig1 = 0;
+  let dig2 = 0;
   let i = 0;
 
   const exp = /\.|\-|\//g;
   cnpj = cnpj.toString().replace(exp, '');
-  let digito = new Number(eval(cnpj.charAt(12) + cnpj.charAt(13)));
+  // eslint-disable-next-line no-eval
+  const digit = eval(cnpj.charAt(12) + cnpj.charAt(13));
 
   for (i = 0; i < valida.length; i++) {
-    dig1 += i > 0 ? cnpj.charAt(i - 1) * valida[i] : 0;
-    dig2 += cnpj.charAt(i) * valida[i];
+    dig1 += i > 0 ? parseInt(cnpj.charAt(i - 1), 10) * valida[i] : 0;
+    dig2 += parseInt(cnpj.charAt(i), 10) * valida[i];
   }
   dig1 = dig1 % 11 < 2 ? 0 : 11 - (dig1 % 11);
   dig2 = dig2 % 11 < 2 ? 0 : 11 - (dig2 % 11);
 
-  return dig1 * 10 + dig2 == digito;
+  return dig1 * 10 + dig2 === digit;
 }
 
 export function validateDocument(document: string): boolean {
