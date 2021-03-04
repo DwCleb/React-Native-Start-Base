@@ -20,7 +20,7 @@ export function getInputStatus(
 }
 
 export function getErrorMessages(data: any): string {
-  const errorMessages = data.map((validator) => validator.valor);
+  const errorMessages = data.map((validator: { valor: string }) => validator.valor);
 
   return errorMessages.join('\n');
 }

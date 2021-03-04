@@ -21,13 +21,13 @@ export default function VerticalAnimation({
   disableAnimationIn,
   children,
 }: Props): JSX.Element {
-  const [opacity, setOpacity] = React.useState(new Animated.Value(0));
-  const [positionY, setPositionY] = React.useState(new Animated.Value(scale(32)));
+  const [opacity] = React.useState(new Animated.Value(0));
+  const [positionY] = React.useState(new Animated.Value(scale(32)));
 
-  function resetAnimation(): void {
-    opacity.setValue(0);
-    positionY.setValue(scale(32));
-  }
+  // function resetAnimation(): void {
+  //   opacity.setValue(0);
+  //   positionY.setValue(scale(32));
+  // }
 
   const animateIn = React.useCallback(
     async (forceReset = false): Promise<void> => {

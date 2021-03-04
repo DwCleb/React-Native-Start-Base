@@ -1,5 +1,4 @@
 import styled from 'styled-components/native';
-import { Colors } from '~/theme';
 
 import IonIcon from 'react-native-vector-icons/Ionicons';
 

@@ -1,6 +1,6 @@
 import AsyncStorage from '@react-native-community/async-storage';
 
-import { configs } from '~/configs';
+import configs from '~/configs';
 import { BackendModule, CallbackError } from 'i18next';
 
 export const AsyncBackend: BackendModule = {

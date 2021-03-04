@@ -66,7 +66,7 @@ export const ErrorMessage = styled(Typography).attrs(() => ({
   align: 'center',
   numberOfLines: 2,
 }))`
-  color: ${({ theme }: ThemeContextType): string => theme.text.black};
+  color: ${({ theme }: ThemeContextType): string => theme.monochromatic.black};
   letter-spacing: ${scale(1)}px;
 `;
 

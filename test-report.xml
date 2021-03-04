@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
-  <file path="/Users/cleber/Documents/projects/ReactNativeStartBase/src/components/UI/HeaderButton/__tests__/HeaderButton.test.tsx">
-  </file>
-  <file path="/Users/cleber/Documents/projects/ReactNativeStartBase/src/components/UI/CurrencyValue/__tests__/CurrencyValue.test.tsx">
-  </file>
-  <file path="/Users/cleber/Documents/projects/ReactNativeStartBase/src/components/UI/Switch/__tests__/Switch.test.tsx">
-  </file>
   <file path="/Users/cleber/Documents/projects/ReactNativeStartBase/src/components/UI/Shimmer/__tests__/Shimmer.test.tsx">
   </file>
-  <file path="/Users/cleber/Documents/projects/ReactNativeStartBase/src/components/UI/Input/__tests__/Input.test.tsx">
+  <file path="/Users/cleber/Documents/projects/ReactNativeStartBase/src/components/UI/HeaderButton/__tests__/HeaderButton.test.tsx">
   </file>
   <file path="/Users/cleber/Documents/projects/ReactNativeStartBase/src/components/HTMLRender/HTMLParser/__tests__/HTMLParser.test.tsx">
   </file>

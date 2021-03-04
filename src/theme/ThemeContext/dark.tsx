@@ -44,7 +44,7 @@ const dark: { theme: ThemeType } = {
         secondary: { active: alerts.green, inactive: monochromatic.black },
       },
       thumb: {
-        primary: { active: primary.orange, inactive: monochromatic.midGrey },
+        primary: { active: primary.blue, inactive: monochromatic.midGrey },
         secondary: { active: '#F7F7F7', inactive: monochromatic.altGrey },
       },
     },

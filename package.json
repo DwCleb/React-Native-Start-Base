@@ -23,7 +23,7 @@
     "lint": "eslint --ext .tsx,.ts .",
     "format-staged-code": "pretty-quick --staged --pattern \"**/*.ts{,x}\"",
     "static-code-validator": "yarn ts-check && yarn lint",
-    "pre-commit-hook": "yarn format-staged-code",
+    "pre-commit-hook": "yarn format-staged-code && yarn static-code-validator",
     "pre-push-hook": "yarn coverage"
   },
   "dependencies": {

@@ -1,6 +1,6 @@
 import styled from 'styled-components/native';
 import { scale, ThemeContextType } from '~/theme';
-import Typography, { TypographyType } from '../../Typography';
+import Typography, { TypographyType } from '~/components/UI/Typography';
 import { View } from 'react-native';
 
 interface Props {

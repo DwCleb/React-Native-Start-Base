@@ -31,7 +31,7 @@ export const BackIcon = styled.Image.attrs((props: IconProps) => ({
   resizeMode: 'contain',
 }))`
   transform: scaleX(${I18nManager.isRTL ? -1 : 1});
-  tint-color: ${(props: ThemeContextType): string => `${props.theme.navigation.back}`};
+  tint-color: ${(props: ThemeContextType): string => `${props.theme.monochromatic.white}`};
   height: ${(props: IconProps): string => (props.type === ButtonEnum.Back ? `${scale(16)}px` : `${scale(26)}px`)}
   width: ${(props: IconProps): string => (props.type === ButtonEnum.Back ? `${scale(9)}px` : `${scale(26)}px`)}
 `;

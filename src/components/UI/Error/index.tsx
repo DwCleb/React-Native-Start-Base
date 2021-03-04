@@ -16,7 +16,7 @@ import {
   ErrorModal,
   Scroll,
 } from './styles';
-import Button from '~/components/Buttons/Button';
+import Button from '~/components/UI/Buttons/Button';
 
 export interface ErrorActionButtonUI {
   title: string;

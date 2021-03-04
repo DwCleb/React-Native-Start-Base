@@ -6,8 +6,6 @@ import { getSource, AnimationsEnum } from './utils';
 import { ViewStyle } from 'react-native';
 
 export interface LottieProps {
-  /* Will indicate which json animation to show */
-  name: AnimationsEnum;
   /* A boolean flag indicating whether or not the animation should loop */
   loop?: boolean;
   /* Number between 0 and 1. If you update this prop, the animation will correspondingly update to the frame at that progress value.*/
@@ -31,7 +29,6 @@ export interface LottieProps {
 // There are a number of methods that can be included in this props on a need basis - play, reset, pause, resume.
 
 export default function LottieAnimation({
-  name,
   loop = true,
   progress = 0,
   speed = 1,
